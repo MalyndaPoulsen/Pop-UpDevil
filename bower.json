@@ -1,0 +1,23 @@
+{
+  "name": "Pop-UpDevil",
+  "homepage": "https://github.com/MalyndaPoulsen/Pop-UpDevil",
+  "authors": [
+    "MaLynda Poulsen <poulsenjones@yahoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6",
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6"
+  }
+}

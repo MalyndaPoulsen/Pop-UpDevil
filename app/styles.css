@@ -1,0 +1,76 @@
+#main-container{
+ background:grey url('/img/Pop-UpDevil-BG.jpg') center center no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+    height: 100%;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+header{
+    background-color: #0a0b0d;
+    color:#c16b15;
+    margin-top:0;
+    margin-bottom:1px;
+    margin-right:-15px;
+   
+    text-align:center;
+    
+}
+#title h1{
+    color: white;
+    margin-top: 15px;
+    margin-bottom:0px;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: 'Covered By Your Grace', cursive;
+   font-weight: 100px;
+}
+#title h4{
+    color: grey;
+    margin-top: 15px;
+    margin-bottom:0px;
+    margin-left: 30px;
+    /*padding-top: 10px;*/
+
+     font-family: 'Covered By Your Grace', cursive;
+
+   font-weight: 100px;
+}
+li{
+    padding-top:20px;
+    font-family: 'Antic Slab', serif;
+    color: black;
+}
+.main-content{
+    text-align:center;
+  
+}
+#signature{
+      font-family: 'Dancing Script', cursive;
+        /*font-family: 'Mrs Saint Delafield', cursive;*/
+        color: lightgrey;
+        margin-top: 0px;
+        margin-bottom: -15px;
+        padding-bottom: 0px;
+}
+#signiture h2{
+    margin-bottom:0px;
+    padding-bottom: 10px;
+}
+h2 span{
+        font-family: 'Mrs Saint Delafield', cursive;
+        /*font-family: 'Dancing Script', cursive;*/
+        color: lightgrey;
+        font-size:100px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+        /*margin-top: 15px;
+        margin-bottom: 0px;
+        padding-bottom:0;*/
+}
