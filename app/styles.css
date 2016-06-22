@@ -1,5 +1,5 @@
 #main-container{
- background:grey url('/img/Pop-UpDevil-BG.jpg') center center no-repeat fixed;
+ background:grey url('/img/Pop-UpDevil-BG2.jpg') center center no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -16,7 +16,7 @@ header{
     margin-top:0;
     margin-bottom:1px;
     margin-right:-15px;
-   height: 120px;
+   height: 130px;
     text-align:center;
     
 }
