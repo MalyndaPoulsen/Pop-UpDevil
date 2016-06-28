@@ -1,5 +1,8 @@
 angular.module("Pop-UpDevil")
 .service('MainService', function () {
+
+
+
     var imgRoot = 'img/boxes/'
 // build boxes
     var boxes = ['red', 'green', 'blue']
