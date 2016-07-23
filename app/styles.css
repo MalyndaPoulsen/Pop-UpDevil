@@ -1,5 +1,5 @@
 #main-container{
- background:grey url('/img/Pop-UpDevil-BG.jpg') center center no-repeat fixed;
+ background:grey url('app/img/Pop-UpDevil-BG.jpg') center center no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -74,10 +74,40 @@ h2 span{
         margin-bottom: 0px;
         padding-bottom:0;*/
 }
-#main-container .cabinet {
+#main-container{
     position: absolute;
     background-color:red;
     width: 790px;
    left:350px;
    top: 100px;
+}
+
+#cupboard{
+    width: 100%;
+    height:100%;
+    top: 1%;
+    left: 5%;
+    position: absolute;
+     margin-left:-15px;
+    margin-right:-15px;
+     padding: 0 0 10 0;
+    background: url('/img/boxes/BW1.png') center center no-repeat;
+    -webkit-animation-name: blink;
+    -webkit-animation-duration: 1s; 
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes blink{
+    0%   {  background: url('/img/boxes/BW1.png')  no-repeat;}
+    25%  {  background: url('/img/boxes/BW2.png') no-repeat;}
+    50%  {  background: url('/img/boxes/BW3.png')  no-repeat;}
+    100% {  background: url('/img/boxes/BW4.png') no-repeat;}
+}
+@keyframes blink{
+    0%   {  background: url('/img/boxes/BW1.png') no-repeat;}
+    25%  {  background: url('/img/boxes/BW2.png') no-repeat;}
+    50%  {  background: url('/img/boxes/BW3.png')  no-repeat;}
+    100% {  background: url('/img/boxes/BW4.png')  no-repeat;}
 }

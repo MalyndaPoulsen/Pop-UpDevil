@@ -1,3 +1,3 @@
 (function(){
-    angular.module("Pop-UpDevil", [])
+    angular.module("popUpDevil", [])
 }())
